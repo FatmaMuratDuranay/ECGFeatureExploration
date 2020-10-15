@@ -68,7 +68,6 @@ def siniflar(X,Y):
                                     'DecisionTreeClassifier',
                                     'Neural Net',
                                     'QDA']):
-
                     skfolds = StratifiedKFold(n_splits=numfold, random_state=42)
                     say=0;
                     Acc=np.zeros(numfold)
