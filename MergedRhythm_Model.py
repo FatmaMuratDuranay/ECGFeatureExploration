@@ -49,7 +49,6 @@ Y = np_utils.to_categorical(encoded_Y,num_classes=4)
 
 
 
-
 X=X.reshape(X.shape[0],X.shape[1],1);
 
 seed =23
