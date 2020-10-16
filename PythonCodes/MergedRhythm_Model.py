@@ -122,9 +122,9 @@ def katman(lnum,X):
         X=np.concatenate((x_train, x_test));
         Y=np.concatenate((y_train,y_test));
 
-        import Classes
+        import Classifiers
         
-        Classes.siniflar(X,Y) # Call shallow classifiers.
+        Classifiers.siniflar(X,Y) # Call shallow classifiers.
 
 
 # DNN model training for each epoch
